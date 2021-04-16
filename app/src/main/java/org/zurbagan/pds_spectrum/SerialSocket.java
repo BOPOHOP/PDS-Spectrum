@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_terminal;
+package org.zurbagan.pds_spectrum;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothDevice;
@@ -79,7 +79,8 @@ class SerialSocket implements Runnable {
     @Override
     public void run() { // connect & read
         try {
-            socket = device.createRfcommSocketToServiceRecord(BLUETOOTH_SPP);
+            // socket = device.createRfcommSocketToServiceRecord(BLUETOOTH_SPP);
+            socket = device.createInsecureRfcommSocketToServiceRecord(BLUETOOTH_SPP);
             socket.connect();
             if(listener != null)
                 listener.onSerialConnect();

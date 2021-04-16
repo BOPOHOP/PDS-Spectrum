@@ -1,4 +1,4 @@
-package de.kai_morich.simple_bluetooth_terminal;
+package org.zurbagan.pds_spectrum;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;

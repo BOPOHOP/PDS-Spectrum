@@ -7,7 +7,7 @@ android {
         minSdkVersion 18
         vectorDrawables.useSupportLibrary true
 
-        applicationId "de.kai_morich.simple_bluetooth_terminal"
+        applicationId "org.zurbagan.pds_spectrum"
         versionCode 1
         versionName "1.0"
     }
