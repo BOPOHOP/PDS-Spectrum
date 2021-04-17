@@ -4,7 +4,8 @@ android {
     compileSdkVersion 29
     defaultConfig {
         targetSdkVersion 29
-        minSdkVersion 18
+        //minSdkVersion 18
+        minSdkVersion 23
         vectorDrawables.useSupportLibrary true
 
         applicationId "org.zurbagan.pds_spectrum"
